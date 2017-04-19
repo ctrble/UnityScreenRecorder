@@ -9,7 +9,7 @@ This script makes it so that Unity will automatically record screen captures of 
 It works by saving screenshots from the Player to the game folder. Each time it records it creates a new folder, named by date and time. Paired with a tool like [ffmpeg](https://ffmpeg.org), it can be an effective and easy way to make game recordings.
 
 ## Setup
-This .cs script is designed to be added as a component to an empty GameObject in your Scene. 
+This .cs script is designed to be added as a component to a GameObject in your Scene. I use it with an empty GameObject, though it should work with any active GameObject, such as the Main Camera.
 
 Also included are two Automator workflows, which can be used to convert the frames to an .mp4 video using [ffmpeg](https://ffmpeg.org). Since it's Automator, this does only work in OSX. If someone wants to create a Windows version of this, please fork it and let me know!
 

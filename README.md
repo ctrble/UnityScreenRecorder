@@ -1,8 +1,6 @@
 # UnityScreenRecorder
 Unity Screen Recorder
 
-# READ ME
-
 ## Use
 This script makes it so that Unity will automatically record screen captures of your game, either whenever you hit Play in the Editor or when you hit the record key. It's perfect for debugging or capturing gameplay to then show off!
 
